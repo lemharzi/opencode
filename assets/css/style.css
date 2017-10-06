@@ -1,0 +1,304 @@
+hmtl {
+  margin: 0; padding: 0;
+  height: 100%; width: 100%;
+  font-size: 14px;
+}
+
+body {
+  margin: 0; padding: 0;
+  height: 100%; width: 100%;
+  font-family: 'Source Code Pro', monospace;
+  /*font-size: 1em;*/
+  background-color: #fff;
+}
+
+h1, h2, nav a {font-family: 'Raleway', sans-serif;}
+
+li {list-style-type: square; padding: .5em;}
+
+/*header*/
+header {position: relative;
+  margin: 2rem auto; padding: 0;
+  width: 70%;
+}
+
+#logo {
+float: left;
+font-family: 'Sarpanch', sans-serif;
+width:250px;
+text-align: center;
+}
+#logo img {
+  /*background-color: #595959;*/
+  height:150px; width: 150px;margin: 0;}
+#logo a {
+  margin: 0;
+  /*background-color: pink;*/
+  color: #00ffe5;
+text-decoration: none;
+font-size: 3em; line-height: 1em;
+}
+#signin {
+  background-color: #595959;
+  float: right;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    min-width: 25%;
+}
+#signin a:link, #signin a:visited, #signup a:link, #signup a:visited {
+  color: #00ffe5;
+  text-decoration: none;
+}
+#signin a:hover, #signup a:hover {color: #fff;}
+#signin form {margin-bottom: 3rem;}
+#signin p {margin: 1em; color: #fff;}
+#signin input {margin: 1em 0;}
+
+nav { /*background-color: red;*/
+  clear: both;
+  display: block;
+  margin: 0;
+  padding: 0;
+text-align: right;
+border-bottom: 2px dotted #595959;
+}
+nav h1 {display: inline-block;}
+nav a {
+  display: inline-block;
+  /*width: auto;*/
+  padding: 0 .5em; margin: 0 .5em;
+  text-decoration: none;
+  /*border-radius: 5px;
+  border: 2px dotted #fff;*/
+  text-transform: uppercase;
+  border-right: 2px dotted #595959;
+}
+a:link, a:visited {
+  /*background-color: #fff;*/
+  color: #595959;
+  transition: color .7s;
+}
+a:hover {
+  /*border: 2px dotted #00ffe5;
+  background-color: #0070ad;*/
+  color: #00ffe5;
+}
+
+/*content*/
+#content {
+  margin: 3rem auto; padding: 0;
+  width: 70%;
+}
+#presentation div {
+  margin:  0  0 4rem 6%;
+  float: left;
+  width:25%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 2px 12px #d1d1d1;
+}
+#presentation div h2 {
+  color: #595959;
+  padding: 1rem;
+  border-radius: 10px;margin:0;
+  /*background-color: red;  */
+  text-transform: uppercase; border: 2px dotted #00ffe5;
+}
+#presentation div p {
+  padding: 0 1rem 1rem 1rem;
+}
+#signup {
+  clear: both;
+  margin: 5rem 0;
+  padding: 1rem  2rem;
+  background-color: #595959;
+  color: #fff;
+  border-radius: 10px;
+}
+#signup h1 {
+margin:0; padding:0 0 1em 0;
+}
+/*footer*/
+footer {
+  clear: both;
+  background-color: #00ffe5;
+  margin: 0; padding: 2rem 0;
+  width: 100%;
+
+}
+footer div {
+  margin: 0 auto;
+  padding: 0;
+width: 70%;
+align-content: center;
+
+}
+footer div div {
+  display: inline-block;
+  vertical-align:top;
+  padding: 0;
+  width: 33%;
+  margin-left: 10%;
+
+}
+footer h2, footer li {
+  padding: .5em 0;
+  color: #000;
+}
+footer a:link, footer a:visited, #catalog a:link, #catalog a:visited {
+  text-decoration: none;
+  color: #000;
+  transition: color .7s;
+}
+footer a:hover, #catalog a:hover {
+  background-color: #000;
+  color: #fff;
+}
+.twitter-follow-button, .fb-like {display: block; margin: 1em 0;}
+/*catalog*/
+#catalog div {
+  margin:  0  0 4rem 6%;
+  float: left;
+  width:25%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 2px 12px #d1d1d1;
+}
+#catalog div h1 {
+  color: #595959;
+  padding: 1rem;
+  border-radius: 10px;margin:0;
+  /*background-color: red;  */
+  text-transform: uppercase;
+  border: 2px dotted #00ffe5;
+}
+#catalog li { padding: 1em;}
+
+/*exercices : bouton pour dévoiler la solution*/
+.button {
+    display: block;
+    background-color: #00ffe5;
+    width: 15%;
+    margin: 0 auto 2rem auto;
+    padding: .2em;
+    font-size:2em;
+    cursor:pointer;
+    box-shadow: 1px 2px 5px #595959;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.button:hover { color:#fff;box-shadow: none;}
+.text{
+    margin: 0  auto  4rem  auto;
+    border-radius: 10px;
+    box-shadow: 1px 2px 12px #d1d1d1;
+    width: 75%;
+}
+/*.text:hover {box-shadow: none;}*/
+
+#titreExercice
+{
+  padding:0 3rem ;
+  border-radius: 10px;
+  background-color:#595959;
+  width: 100%-3rem;
+  text-align: right;
+  font-size: 2em;
+  color:#fff;
+}
+#titreExercice span{color: grey;}
+#titreExercice a:link, #titreExercice a:visited{color: #00ffe5; text-decoration: none; margin:0 0 0 1em;}
+#titreExercice a:hover{color: #000;}
+#titreExercice a.left, #titreExercice span.left{float: left; margin: 0;}
+
+#Instruction
+ {
+   margin:  0  auto  4rem  auto;
+   padding: 1rem;
+   width:50%;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 1px 2px 12px #d1d1d1;
+ }
+
+/*#bouttonRetour a
+{
+    text-decoration:none;
+}*/
+
+/*profile*/
+#profile{
+  margin:  0  auto;
+  padding: 1rem;
+  width:25%;
+  /*height: 20%;*/
+  display: block;
+  text-align: center;
+  /*clear: both;*/
+  background-color: #fff;
+  border-radius: 40px;
+  box-shadow: 1px 2px 12px #d1d1d1;
+  text-transform: uppercase; border: 2px dotted #00ffe5;
+}
+#like, #dislike, #exercices{
+  padding: 0;
+  width:25%;
+  /*height: 25%;*/
+  display: block;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 2px 12px #d1d1d1;
+}
+#like h2, #dislike h2, #exercices h2{
+  color: #595959;
+  text-transform: uppercase; border: 2px dotted #00ffe5;
+  margin: 0;
+  border-radius: 10px;
+  padding: 0.5em;
+}
+#dislike{
+  float: right;
+  margin: 2em 10% 2em 0;
+}
+#like{
+  float: left;
+  margin: 2em 0 2em 10%;
+}
+#exercices{
+  margin: 0 auto;
+  clear: both;
+  /*width: 25%;*/
+}
+
+/*contact*/
+#contact {
+  background-color: #595959;
+  width: 100%;
+  border-radius: 10px;
+  color:#fff;
+}
+#contact h1 { margin: 0; width: 50%; padding: 0;}
+#contact div {
+  margin:0 auto;
+  background-color:#595959;
+  width: 50%;
+  padding: 2em;
+}
+#contact div div {
+  margin: 3rem 0 0 0; padding: 0;
+  height: 100px; width: 100%;
+}
+#contact div div p { margin: 0; padding: 1em; line-height: 200%;}
+#contact div div img { margin:0; float: left;}
+#contact input { width: 100%; margin-bottom: 2em;}
+#contact textarea {width: 100%;}
+#contact #submit_button{width: auto;}
+
+#whoIsOpencode, #courses, #mentions {
+  margin: 4rem auto 0 auto ;
+  width: 50%;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 1px 2px 12px #d1d1d1;
+}
